@@ -56,7 +56,7 @@ if __name__ == '__main__':
     )
     
     param_distrib = {
-        "gradientboostingclassifier__max_depth": randint(3, 12),
+        "gradientboostingclassifier__max_depth": randint(3, 15),
         "gradientboostingclassifier__n_estimators": randint(100, 1000)
     }
 
